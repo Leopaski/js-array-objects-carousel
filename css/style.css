@@ -46,3 +46,9 @@ img {
 .back {
     left:10%
 }
+.content{
+    display: none;
+}
+.active{
+    display: block;
+}

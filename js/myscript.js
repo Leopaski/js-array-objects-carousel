@@ -22,3 +22,8 @@ const images = [
     }
 ];
 const imgElement=document.getElementById('img');
+for (let i=0;i<images.length;i++){
+    imgElement.innerHTML+= `<div class="content active" id="img">
+                            <img src="./${images[i].image}" alt="">
+                            </div>`
+}
